@@ -2,20 +2,22 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
   <title>Mustang vs. Mustang</title>
 </head>
 <body>
-  <h1>2014 Mustang GT vs. 2015 Mustang</h1>
+  <main>
+  <h1>2014 Mustang GT vs. 2015 Mustang GT</h1>
   <p>The 2014 and 2015 Mustang may only be one year apart, but the differences say there is more. With a completey different body style, car enthusiasts are debating if Ford went in the right direction. In this article, we will be giving the look from both sides.</p>
 
   <h2>The Show-down</h2>
   <figure>
-    <img src="pics/s550-vs-s197.jpg">
+    <img src="pics/s550-vs-s197.jpg" id="main-img">
     <figcaption>The rear ends of both the 2014 and 2015 Mustang GT</figcaption>
   </figure>
 
   <h3>The details...</h3>
-  <table border="1">
+  <table>
     <tr>
       <th>2014 Mustang GT</th>
       <th>2015 Mustang GT</th>
@@ -33,25 +35,25 @@
     </tr>
   </table>
 
-  <p>More info at <a href="http://www.autotrader.com/car-reviews/2014-vs-2015-ford-mustang-whats-the-difference-217706">Autotrader</a>.</p>
+  <p id="more-info">More info at <a href="http://www.autotrader.com/car-reviews/2014-vs-2015-ford-mustang-whats-the-difference-217706">Autotrader</a>.</p>
 
   <h3>Time for you to choose...</h3>
 
   <form action="https://httpbin.org/post" name="user-form" method="post">
-    <div>
+    <div class="input">
       <label>Your name: </label>
       <input type="text" name="user-name">
     </div>
 
-    <div>
+    <div class="input">
       <label>E-mail: </label>
       <input type="text" name="user-email">
     </div>
-    <div>
+    <div class="input">
       <label>Today's date: </label>
       <input type="date" name="date">
     </div>
-    <div>
+    <div class="input">
       <select name="user-choice">
         <option>2014 Mustang GT</option>
         <option>2015 Mustang GT</option>
@@ -60,6 +62,18 @@
 
     <button type="submit" name="submit-form">Submit</button>
   </form>
-</div>
+  </main>
+
+  <footer>
+    <figure class="foot-figure">
+      <a href="http://americanmuscle.com"><img src="footer-pics/AM-logo.png" class="logos"></a>
+    </figure>
+    <figure class="foot-figure">
+      <a href="http://lmr.com"><img src="footer-pics/LMR-logo.png" class="logos"></a>
+    </figure>
+    <figure class="foot-figure">
+      <a href="http://cjponyparts.com"><img src="footer-pics/CJPP-logo.png" class="logos"></a>
+    </figure>
+  </footer>
 </body>
 </html>
