@@ -1,3 +1,65 @@
-body {
-  background-color: tan;
+h1, h2, h3 {
+  font-family: "Covered By Your Grace", cursive;
 }
+
+.input {
+  margin-bottom: 2%;
+}
+
+#more-info {
+  border-left-style: solid;
+  border-left-color: blue;
+  padding-left: 1%;
+}
+
+footer {
+  background-color: #B8B8B8;
+  margin: 0% 5% 0% 5%;
+
+}
+
+.foot-figure {
+  display: inline-block;
+
+}
+
+.logos {
+  width: 50%;
+  margin-left: 100%; /* centering footer images*/
+}
+
+main {
+  margin: 0% 5% 0% 5%;
+  background-color: #FBEEE6;
+  padding: 5%;
+}
+
+html {
+  background-image: url("background.png");
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover{
+  color: red;
+}
+
+@media only screen and (max-width: 900px) {
+  figure {
+    margin: 0px;
+  }
+  #main-img {
+    width: 100%;
+  }
+
+  body {
+    margin: 5px 0px 0px 0px;
+  }
+
+  .logos {
+  margin-left: 65%; /* centering footer images*/
+}
+}
+
